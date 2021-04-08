@@ -15,7 +15,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Application {
-  
+
+  /**
+   * Summary - Helper method to read the file.
+   * @param fileName - Name of the file
+   * @return - InputStream.
+   */
   InputStream getFileFromResourceAsStream(String fileName) {
     ClassLoader classLoader = getClass().getClassLoader();
     InputStream inputStream = classLoader.getResourceAsStream(fileName);
@@ -26,7 +31,11 @@ public class Application {
     }
 
   }
-  
+
+  /**
+   * Summary - This method builds the map and answeres the task questions.
+   * @param is - InputStream of the file read.
+   */
   void programmingTask(InputStream is) {
     Map<String, ApacheLogAttributes> ipMap = new HashMap<>();
     Map<String, ApacheLogAttributes> urlMap = new HashMap<>();

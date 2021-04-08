@@ -16,21 +16,6 @@ Application uses the following tech stack
 ## Features
 
 - Application is composed of two software components _digio-log-insights_ and _component-test_ where each component is represented by a separate Gradle build.
-.
-── build.gradle
-── component-test
-│   └── build.gradle
-│   └── src
-── digio-log-insights
-│   └── build.gradle
-│   └── src
-│       └── main
-│       └── test
-── gradle
-│   └── checkstyle.gradle
-│   └── dependencies.gradle
-── gradle.properties
-── settings.gradle
 - Application uses check style during build phase to ensure code is readable and production standard.
 - Can be packaged as a docker container.
 

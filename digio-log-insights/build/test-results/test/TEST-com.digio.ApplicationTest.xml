@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.digio.ApplicationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-08T12:49:39" hostname="AU-C02VP0W1HV2Q" time="0.538">
+<testsuite name="com.digio.ApplicationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-08T22:51:37" hostname="AU-C02VP0W1HV2Q" time="0.554">
   <properties/>
-  <testcase name="getFileFromResourceAsStreamFileNotFoundTest()" classname="com.digio.ApplicationTest" time="0.521"/>
+  <testcase name="getFileFromResourceAsStreamFileNotFoundTest()" classname="com.digio.ApplicationTest" time="0.539"/>
   <testcase name="getFileFromResourceAsStreamFileFoundSuccessfullyTest()" classname="com.digio.ApplicationTest" time="0.002"/>
-  <testcase name="programmingTaskTest()" classname="com.digio.ApplicationTest" time="0.013"/>
+  <testcase name="programmingTaskTest()" classname="com.digio.ApplicationTest" time="0.011"/>
   <system-out><![CDATA[The number of unique IP addresses - 0
 The top 3 most visited URLs - 
 The top 3 most active IP addresses - 

@@ -15,9 +15,12 @@ public class LogParserImpl implements LogParser {
   @Override
   public Map<String, ApacheLogAttributes> buildMap(String logLine, Map<String, ApacheLogAttributes> ipMap,
                                                    int keyGroupNumber) {
+    // Match the log line against the pattern
     final Matcher matcher = PATTERN.matcher(logLine);
 
     if (matcher.matches()) {
+      // Check if map already contains the key. If yes then increment the count and check the date. If the new date is 
+      // after then replace it.
       if (ipMap.containsKey(matcher.group(keyGroupNumber))) {
         ApacheLogAttributes apacheLogAttributes = ipMap.get(matcher.group(keyGroupNumber));
         apacheLogAttributes.setCount(apacheLogAttributes.getCount() + 1);
