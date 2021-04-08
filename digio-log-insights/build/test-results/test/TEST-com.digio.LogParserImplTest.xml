@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.digio.LogParserImplTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-08T12:49:39" hostname="AU-C02VP0W1HV2Q" time="0.121">
+  <properties/>
+  <testcase name="testUrlMapAttributes()" classname="com.digio.LogParserImplTest" time="0.039"/>
+  <testcase name="testInvalidLogLine()" classname="com.digio.LogParserImplTest" time="0.0"/>
+  <testcase name="testIpAddressMapAttributes()" classname="com.digio.LogParserImplTest" time="0.002"/>
+  <testcase name="testSortingOrder()" classname="com.digio.LogParserImplTest" time="0.006"/>
+  <testcase name="testIpAddressMap(Map)[1]" classname="com.digio.LogParserImplTest" time="0.021"/>
+  <testcase name="testIpAddressMap(Map)[2]" classname="com.digio.LogParserImplTest" time="0.001"/>
+  <testcase name="testUrlMap(Map)[1]" classname="com.digio.LogParserImplTest" time="0.002"/>
+  <testcase name="testUrlMap(Map)[2]" classname="com.digio.LogParserImplTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

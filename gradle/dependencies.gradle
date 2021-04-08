@@ -1,0 +1,11 @@
+ext {
+    versions = [
+            
+            lombok          : "1.18.10"
+    ]
+libs = [
+        lombok              : "org.projectlombok:lombok:$versions.lombok",
+        log4j               : "org.slf4j:slf4j-log4j12"
+        
+]
+}

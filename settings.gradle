@@ -1,0 +1,4 @@
+rootProject.name = 'DigIoProgrammingTask'
+include 'digio-log-insights'
+include 'component-test'
+

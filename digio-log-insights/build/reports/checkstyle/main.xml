@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.27">
+<file name="/Users/ssehgal/Documents/10x/DigIoProgrammingTask/digio-log-insights/src/main/java/com/digio/Application.java">
+</file>
+<file name="/Users/ssehgal/Documents/10x/DigIoProgrammingTask/digio-log-insights/src/main/java/com/digio/Utility.java">
+</file>
+<file name="/Users/ssehgal/Documents/10x/DigIoProgrammingTask/digio-log-insights/src/main/java/com/digio/models/ApacheLogAttributes.java">
+</file>
+<file name="/Users/ssehgal/Documents/10x/DigIoProgrammingTask/digio-log-insights/src/main/java/com/digio/services/LogParser.java">
+</file>
+<file name="/Users/ssehgal/Documents/10x/DigIoProgrammingTask/digio-log-insights/src/main/java/com/digio/services/LogParserImpl.java">
+</file>
+</checkstyle>
